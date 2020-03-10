@@ -1,0 +1,24 @@
+.gameunit-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.gameunit-img {
+  width: 100%;
+}
+
+.gameunit_img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+
+.gameunit_label-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 18px;
+  color: blue;
+}

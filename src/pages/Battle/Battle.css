@@ -1,0 +1,50 @@
+.battle_content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.battle_result-wrapper {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.battle_gameunit_player-label {
+  font-size: 20px;
+  height: 50px;
+}
+
+.battle_result-txt {
+  color: green;
+  font-size: 30px;
+}
+
+.battle_result-score {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.battle_result-action {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: space-around;
+}
+
+.battle_result_loss-txt {
+  color: red;
+  font-size: 30px;
+}
+
+.battle_result_none-txt {
+  color: orange;
+  font-size: 30px;
+}
+
+.battle_unit-wrapper {
+  height: 450px;
+}
